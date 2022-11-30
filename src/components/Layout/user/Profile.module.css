@@ -1,0 +1,68 @@
+.img {
+    position: absolute;
+    float:left;
+    left: 35%;
+    margin:20px 50px;
+    margin-top: 4%;
+    width:200px;
+    height:200px;
+}
+
+.profile {
+    position: absolute;
+    justify-content: center;
+    left: 35%;
+    margin-top: 7%;
+    background-color: wheat;
+    height: 300px;
+    width: 100%;
+}
+
+.profile h3 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profile h5 {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 0px;
+    color: black;
+    cursor: pointer;
+}
+
+.profile h5:hover {
+    color: red;
+}
+
+.profile form {
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.profile form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.profile form p {
+    position: absolute;
+    left: 24%;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: -1px;
+    color: red;
+}
+
+.profile form p:hover {
+    color: rgb(121, 0, 0);
+}
+
